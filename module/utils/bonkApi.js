@@ -56,6 +56,7 @@ class BonkApi {
     return this.post("getrooms.php", { version, gl, token });
   }
 
+
   getRoomInfo(roomId, g = "n") {
     return this.post("getroomaddress.php", { id: roomId, g });
   }
