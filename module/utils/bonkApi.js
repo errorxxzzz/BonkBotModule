@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-class apiBonk {
+class BonkApi {
   constructor() {
     this.api = axios.create({
       baseURL: "https://bonk2.io/scripts/",
@@ -159,5 +159,5 @@ static decodeSkin(s) {
 
 
 }
-
-module.exports = apiBonk;
+let API = new BonkApi();
+module.exports = API;
