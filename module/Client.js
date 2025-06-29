@@ -76,9 +76,9 @@ if (matches.length > 1) {
       
     const selectedRoom = matches[0];
 
-    const server = API.getRoomInfo(selectedRoom.id);
+    const server = this.API.getRoomInfo(selectedRoom.id);
      if (server.status !== 200) {
-        throw new Error("Erro na api do bonk, Sala nao encontrada!");
+        throw new Error("Erro na API do bonk, Sala nao encontrada!");
       }
       console.log("Sala encontrada com sucesso!")
 this.servers.push(server);
