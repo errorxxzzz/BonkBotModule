@@ -1,6 +1,6 @@
 
 
-const BonkClient = require("./module/bonkClient");
+const BonkClient = require("./module/Client.js");
 
 const client = new BonkClient();
 
