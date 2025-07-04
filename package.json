@@ -1,5 +1,5 @@
 {
-  "name": "bonkBot",
+  "name": "bonkbot",
   "version": "0.1",
   "description": "Client de integraçao",
   "main": "index.js",
@@ -7,10 +7,11 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "author": "dcx!",
+  "author": "dcx! & error_504",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.6.0"
+    "axios": "^1.10.0",
+    "ws": "^8.18.3"
   },
   "devDependencies": {
     "nodemon": "^3.0.0"
